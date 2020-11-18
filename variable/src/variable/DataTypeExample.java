@@ -21,7 +21,7 @@ public class DataTypeExample {
 		for(int i=0; i < 26; i++)
 			System.out.println(char1++);
 		
-		float floatVal = 4.567;
+		float floatVal = 4;
 		double doubleVal = 3.4567;
 			
 	}

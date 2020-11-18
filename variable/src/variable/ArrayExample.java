@@ -1,4 +1,4 @@
-package variable;
+ package variable;
 
 public class ArrayExample {
 
@@ -16,7 +16,7 @@ public class ArrayExample {
 			System.out.println(numbers[1]);		//2번째자리 값을 0부터 4까지 반복
 			sum +=numbers[1];					//2번째자리 값을 더함
 			
-			System.out.println("합: "+ sum);
+			System.out.println("합은: "+ sum);
 			
 			String[] strings = {"Hello", "World", 
 								"Nice", "To", "Meet"};
