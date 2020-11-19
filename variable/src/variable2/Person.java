@@ -28,6 +28,7 @@ public class Person {
 		System.out.println("이름: " + name);
 		System.out.println("나이: " + age);
 		System.out.println("키: " + height);
+		
 	}
 
 	// 필드에 값을 저장, 불러오는 기능.
