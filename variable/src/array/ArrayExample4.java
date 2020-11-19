@@ -26,10 +26,18 @@ public class ArrayExample4 {
 		};
 		
 		System.out.println(intAry2[2].length);
+		
+		for(int x=0; x<intAry.length; x++) {
+			
+		}
 	}
-	//intAry2 의 배열의 합, 평균..
-	//
-	//intAry2[0]=>합:? , 평균: ??
-	//intAry2[0]=>합:? , 평균: ??
-	//intAry2[0]=>합:? , 평균: ??
+
 }
+
+
+
+//intAry2 의 배열의 합, 평균..
+//
+//intAry2[0]=>합:? , 평균: ??
+//intAry2[0]=>합:? , 평균: ??
+//intAry2[0]=>합:? , 평균: ??

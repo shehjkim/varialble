@@ -15,10 +15,10 @@ public class ArryaExample2 {
 		}
 	public static double dAry(double[] dAry) {
 		double Sum=0;
-		for (double doublesum: dAry) {
-		 sum += doublesum;
+		for (double sum: dAry) {
+		 sum += dAry;
 		}
-		return doublesum;
+		return double sum;
 	}
 	
 	}
