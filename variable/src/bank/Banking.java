@@ -42,6 +42,16 @@ public class Banking {
 					
 			} else if (selectNO == 3) {
 				System.out.println("3. 입금을 선택했습니다.");
+				System.out.println("계좌번호 선택>");
+				String accNo = scn.nextLine();
+				System.out.println("입급액 입력> ");
+				int balance = scn.nextInt();
+				for (int i=0; i<customers.length; i++) {
+					if(customers[i] !=null && 
+						accNo.equals(customers[i].getBankAccount())) {
+					int currentBalance = customers[i].getBalance();
+					customers[i].setBalance(currentBalance+balance);
+					
 
 			} else if (selectNO == 4) {
 				System.out.println("4. 출금을 선택했습니다.");
@@ -56,4 +66,7 @@ public class Banking {
 	}
 
 		}
-	}	}
+			}
+		}
+	}
+}

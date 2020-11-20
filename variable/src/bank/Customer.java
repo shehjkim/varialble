@@ -2,22 +2,22 @@ package bank;
 
 public class Customer {
 	
-	private String bankAcount;
+	private String bankAccount;
 	private String owner;
 	private int balance;
 	
-	public Customer(String bankAcount, String owner, int balance) {
-		this.bankAcount = bankAcount;
+	public Customer(String bankAccount, String owner, int balance) {
+		this.bankAccount = bankAccount;
 		this.owner = owner;
 		this.balance = balance;
 	}
 	
-	public String getBankAcount() {
-		return bankAcount;
+	public String getBankAccount() {
+		return bankAccount;
 	}
 	
-	public void setBankAcount(String bankAcount) {
-		this.bankAcount = bankAcount;
+	public void setBankAccount(String bankAccount) {
+		this.bankAccount = bankAccount;
 	}
 	
 	public String getOwner() {
@@ -37,7 +37,7 @@ public class Customer {
 	}
 	
 	public void showAccountInfo( ) {
-		System.out.println("계좌번호: " + this.bankAcount 
+		System.out.println("계좌번호: " + this.bankAccount 
 						+ ", 예금주: " + this.owner 
 						+ ", 잔액: " + this.balance);
 	}
