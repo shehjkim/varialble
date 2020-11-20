@@ -54,7 +54,7 @@ public class Person {
 	public void setHeight(double height) {
 		this.height = height;
 	}
-
+	
 	public double getHeight() {
 		return this.height;
 	}

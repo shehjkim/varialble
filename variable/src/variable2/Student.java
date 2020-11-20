@@ -10,7 +10,7 @@ public class Student {
 	
 
 
-	//1. 메소드
+	//1. set 메소드
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -27,13 +27,13 @@ public class Student {
 		this.mscore = mscore;
 	}
 	
-	//2.메소드:studentInfo()
+	//2.showinfo 메소드:studentInfo()
 	public void showInfo() {
 		System.out.println("이름: "+ name);
 		System.out.println("학번: "+ number);
 	}
 	
-	//3.메소드: totalScore()
+	//3.get메소드: totalScore()
 	//영어점수+수학점수;
 	
 	public double getTotalScore() {

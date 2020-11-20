@@ -22,6 +22,9 @@ public class StudentExample {
 		
 		System.out.println("영어점수+수학점수 =" + 			//3.메소드 totalScore
 							s1.getTotalScore() );
+		
+	
+		
 	}
 
 }
