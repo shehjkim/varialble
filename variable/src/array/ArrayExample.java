@@ -3,18 +3,22 @@ package array;
 public class ArrayExample {
 
 	public static void main(String[] args) {
-		int[] intAry = new int[5]; // 정수를 담을수있는 다섯개공간을 만들겠단의미
-		intAry[0] = 15;
-		intAry[4] = 33;
+		int[] intAry = new int[5]; 					// 정수를 담을수있는 다섯개공간을 만들겠단의미
+		intAry[0] = 15;								//0번 인덱스를 15로 지정
+		intAry[4] = 33;								//4번 인덱스를 33으로 지정
 		for (int i = 0; i < 5; i++) {
-			System.out.println(intAry[i]);
+			System.out.println(intAry[i]); 			//intAry 배열을 모두 출력
 		}
 
-		double[] doubleAry; // doubleAry에 아무값도 지정안함 - 변수만 선언
+		System.out.println();
+		
+		
+		double[] doubleAry; // doubleAry 타입만 지정, 수소값
 		doubleAry = new double[] { 2.3, 2, 4.5, 2.2, 1.6 }; // 값지정
-		// double[] doubleAry={2.3, 2, 4.5, 2.2, 1.6}; 로 위 두줄 한줄로 지정가능
+//		 double[] doubleAry={2.3, 2, 4.5, 2.2, 1.6}; 로 위 두줄 한줄로 지정가능
 
 		System.out.println(doubleAry[0]);
+		System.out.println();
 
 		double sum = 0;
 		for (int i = 0; i < doubleAry.length; i++) {
